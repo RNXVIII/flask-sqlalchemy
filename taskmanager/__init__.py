@@ -19,3 +19,5 @@ else:
 db = SQLAlchemy(app)
 
 from taskmanager import routes  # noqa
+
+# Create the database and the tables
